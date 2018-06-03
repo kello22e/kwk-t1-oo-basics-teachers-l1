@@ -18,4 +18,14 @@ class Book
   def author
     @author
   end
+  
+  #set page count
+  def page_count=(num)
+    @page_count = num
+  end
+  
+  #get page count
+  def page_count
+    @page_count
+  end
 end
